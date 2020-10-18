@@ -3,99 +3,165 @@
 
 <head>
 
-    <link rel="stylesheet" href="HipHop.css">
-   
-       <!-- Required meta tags -->
-       <meta charset="utf-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="HipHop.css">
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <script>
-          window.alert("Enter into DHH Club <3");
-        </script>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <title>Hip-Hop-Hub</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- <script> window.alert("Before heading ahead Let's fight COVID together by proper sanitization !");</script> -->
+
+
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+  <title>Hip-Hop-Hub</title>
 </head>
 
+<body>
+
+<div class="header">
+  <div class="container">
 
 
-<!--   -------------NAVBAR-------------------------------- -->
+
+   <!--   -------------NAVBAR-------------------------------- -->
   <nav class="navbar navbar-expand-lg ">
-    <a class="navbar-brand" href="HipHopHub.html">
-      <h1>Hip•Hop•Hub</h1>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+  <a class="navbar-brand" href="HipHopHub.html">
+    <h1>Hip•Hop•Hub</h1>
+  </a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        
-        <li class="nav-item">
-          <a class="nav-link" href="HipHopHub.html"> Home </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#aboutus"> About </a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Artists
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="gawah.jpg">Talha Anjum</a>
-            <a class="dropdown-item" href="#">Talha Yunus</a>
-            <a class="dropdown-item" href="Depression-Song-Lyrics.jpg">Talha Yunus</a>
-            <a class="dropdown-item" href="#">Karma</a>
-            <a class="dropdown-item" href="#">KR$NA</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="lyrics.html">Just show DOPE BARS.</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="lyrics.html"> Best Bars </a>
-        </li>
-        <li class="nav-item">
-          
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Gooo</button>
-      </form>
-    </div>
-  </nav>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item">
+        <a class="nav-link" href="HipHopHub.html"> Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#aboutus"> About </a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Artists
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Talha Anjum</a>
+          <a class="dropdown-item" href="#">Talha Yunus</a>
+          <a class="dropdown-item" href="#">Talha Yunus</a>
+          <a class="dropdown-item" href="#">Karma</a>
+          <a class="dropdown-item" href="#">KR$NA</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="lyrics.html">Just show DOPE BARS.</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="lyrics.html"> Best Bars </a>
+      </li>
+      <li class="nav-item">
+
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" id="submit" type="submit">SEARCH</button>
+    </form>
+  </div>
+</nav>
 <!-- ----------------------- NAVBAR ENDS -------------------->
 
-<body>
-  <div class="row">
-    <div class="column zoom" > <img src="anjum.jpg" alt="TA" title="Talha Anjum" style="width:95%">  </div>
-
-    <div class="column zoom"> <img src="2pac.jpg" alt="2-PAC Shakur" title="Tupac Shakur" style="width:95%"> </div>
-
-    <div class="column zoom"> <img src="yunus.jpg" alt="TY" title="Talha Yunus" style="width:95%"> </div>
+  <div class="imgContainer">
+    <img src="Chase.jpg" alt="" width="100%" height="600px" style="opacity: 0.8; margin-bottom: 30px;">
+    <div class="centered"> LET'S VIBE TOGETHER.</div>
+  </div>
+      <div class="row" id="three">
+      <div class="column zoom"> <img src="anjum.jpg" class="slide" alt="TA" title="Talha Anjum" style="width:95%"> </div>
+      <div class="column zoom"> <img src="2pac.jpg" class="slide" alt="2-PAC Shakur" title="Tupac Shakur" style="width:95%"> </div>
+      <div class="column zoom"> <img src="yunus.jpg" class="slide" alt="TY" title="Talha Yunus" style="width:95%"> </div>
   </div>
   <br><br>
-  <a id="aboutus">
-   <section >
-
-<h2 style="font-family:'Comic Sans MS', Courier, monospace"> About Us</h2>
-<div id="Aboutus" style="width: 60%;">
- This page is created by a hip hop lover for hip hop lover and is all in all a page of hip hop 
-  lovers.
-  <br> We here represent in front of you the greatest artists in the hip hop scene, Desi Hip Hop 
-  scene in particular.
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et suscipit pariatur laboriosam consequatur consequuntur quam veniam ex modi facere libero tempora expedita adipisci, in eos.</p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et suscipit pariatur laboriosam consequatur consequuntur quam veniam ex modi facere libero tempora expedita adipisci, in eos.</p>
-      
+ 
+</div>
+</div>
+  <!-- ****************************************** ABOUT US ********************************************************* -->
+<div id="AboutContainer">
+  <div id="Aboutus">
+    <h2 style="font-family:'Comic Sans MS', Courier, monospace; text-align: center; "> About Us</h2>
+    <br>
+    This page is created by a hip hop lover for hip hop lover and is all in all a page of hip
+    hop
+    lovers.
+    We here represent in front of you the greatest artists in the hip hop scene, Desi Hip Hop
+    scene in particular.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et suscipit pariatur laboriosam consequatur
+    consequuntur quam veniam ex modi facere libero tempora expedita adipisci, in eos.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et suscipit pariatur laboriosam consequatur
+    consequuntur quam veniam ex modi facere libero tempora expedita adipisci, in eos.
+    page is created by a hip hop lover for hip hop lover and is all in all a page of hip hop
   </div>
+</div>
 
-   </section>
+
+  <br> <br>
+  <p style="text-align: center ; margin: auto;"> Remember below things, evenwhile vibing.</p>
+  <hr class="belowAbout">
+
+  <div style="margin: auto; text-align: center;">
+  <i class="fas fa-hands-wash" title="Wash your hands"></i>
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  <i class="fas fa-people-arrows" title="Social distancing"></i>
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  <i class="fas fa-head-side-mask" title="Wear Face mask."></i>
+</div>
+  <!-- ******************************* Contact US *********************************** -->
+  <hr class="belowAbout">
+  <br>
+  </section>
+
+  <!-- ****************************************** Footer ****************************** -->
+
+  <footer>
+    <div class="row foot">
+
+      <div class="column">
+        <h5>Social Media</h5>
+        <ul style="list-style: none;">
+          <li> Facebook</li>
+          <li> Facebook</li>
+          <li> Facebook</li>
+        </ul>
+      </div>
+
+      <div class="column">
+        <h5>Social Media</h5>
+        <ul style="list-style: none;">
+          <li> Facebook</li>
+          <li> Facebook</li>
+          <li> Facebook</li>
+        </ul>
+      </div>
+
+      <div class="column">
+        <h5>Social Media</h5>
+        <ul style="list-style: none;">
+          <li> Facebook</li>
+          <li> Facebook</li>
+          <li> Facebook</li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
 
   </a>
   <!-- Optional JavaScript -->
