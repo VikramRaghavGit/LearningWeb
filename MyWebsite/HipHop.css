@@ -1,0 +1,176 @@
+*
+{
+  box-sizing: border-box;
+}
+
+ .container
+ {
+   max-width: 1300px;
+ }
+.header 
+{
+  background-image: url('Orangedance.jpg');
+  
+  
+}
+
+#submit,#submit:hover
+{
+  color: white;
+  border: 2px solid #f4aa63;
+  font-weight: bold;
+  background-color: #f4aa63;
+}
+
+.navbar
+{
+   
+  background-image: linear-gradient(to left #e74c3c,#000000);
+  
+    margin-bottom: 0px;
+}
+
+li>a
+{
+  color: white;
+  
+  border-radius: 30px;
+}
+li>a:hover
+{
+  background-color: #ff523b;
+  color: white;
+}
+
+ .nav-item
+ {
+     margin-right: 10px;
+     margin-left: 5px;
+ }
+.row
+  {
+      display: block;     
+      margin-left: 20px;
+      font-family:'Comic Sans MS', serif !important;
+     
+  }
+
+   /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    box-shadow: 5px black;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    
+    display: table;
+  }
+
+  .zoom {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+  }
+  
+  .zoom:hover 
+  {
+    transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    
+  }
+    
+
+   .slide
+   {
+       border-radius: 5%;
+   }
+   .dropdown-item:hover
+   {
+      background-color: #f4aa63 !important; 
+   }
+
+#lyric
+{
+  background-image: linear-gradient(to right, #000000 , #e74c3c);
+    margin: 10px;
+    color: whitesmoke;
+}
+
+.imgContainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: overline underline;
+  text-shadow: 2px 2px #d44021;
+  color: #fe5426;
+}
+
+#three
+{
+  margin: auto;
+}
+
+.foot
+{
+  text-align: center;
+}
+
+
+i
+{
+  font-size: 40px;
+  text-align: center;
+  
+  }
+  .fas:hover
+  {
+    color: #fe905e;;
+  }
+  #AboutContainer
+  {
+    background-color: #fe905e;
+  }
+
+ #Aboutus
+ {
+   
+   margin: auto;
+   text-align: center;
+   max-width: 70%;
+   padding: 0px;
+   color: black;
+ }
+
+  #Contact
+  {
+    color: #f2f2f2;
+  }
+
+
+
+   .belowAbout
+    {
+      border-top: 2px dashed wheat;
+      width: 70%;
+    }
+
+ h1
+ {
+     color : #fe5426;
+     text-shadow:2px 2px wheat;
+ }
+ 
+ ul>li
+ {
+   text-align: center;
+ }
