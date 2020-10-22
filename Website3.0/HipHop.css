@@ -5,12 +5,11 @@
 
  .container
  {
-   max-width: 1300px;
+   max-width: 80%;
  }
 .header 
 {
   background-image: url('Orangedance.jpg');
-  
   
 }
 
@@ -97,6 +96,19 @@ li>a:hover
     margin: 10px;
     color: whitesmoke;
 }
+#IntroContainer
+{
+  background-color: #f78b74;
+  
+}
+ #Intro
+ {
+   width: 80%;
+   text-align: center;
+   margin: auto;
+   
+   
+ }
 
 .imgContainer {
   position: relative;
@@ -125,6 +137,16 @@ li>a:hover
   text-align: center;
 }
 
+#FooterContainer
+{
+  background-color: #000000;
+  color: wheat;
+}
+#covidIcons
+{
+  background-color: grey;
+  margin-top: -47px;
+}
 
 i
 {
@@ -156,6 +178,10 @@ i
     color: #f2f2f2;
   }
 
+  h5
+  {
+    color: #f78b74;
+  }
 
 
    .belowAbout
@@ -173,4 +199,10 @@ i
  ul>li
  {
    text-align: center;
+   
  }
+
+.navbar-toggler-icon
+{
+  border: 2px solid white;
+}
